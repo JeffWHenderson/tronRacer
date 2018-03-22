@@ -9,8 +9,7 @@ public class GameBoard extends JFrame {
 		start();
 	}
 	
-	private void start() {
-		 setVisible(true);
-		 
+	public void start() {
+		 setVisible(true);	 
 	}
 }
