@@ -1,7 +1,7 @@
 package com.jeffwhenderson.tronRacer.view;
 
 import javax.swing.JFrame;
-import javax.swing.JPanel;
+//import javax.swing.JPanel; // remove unless I add JPanel back in 
 
 @SuppressWarnings("serial")
 public class GameBoard extends JFrame {
@@ -19,9 +19,10 @@ public class GameBoard extends JFrame {
 	}
 	
 	private void buildGUI() {
-		JPanel mainContainer = new JPanel();
-		mainContainer.add(myGamePanel);
-		
-		add(mainContainer);
+//		JPanel mainContainer = new JPanel();
+//		mainContainer.add(myGamePanel);
+//		add(mainContainer);
+		add(myGamePanel);
+		pack();
 	}
 }
