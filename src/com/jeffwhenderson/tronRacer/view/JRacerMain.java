@@ -7,9 +7,11 @@ public class JRacerMain {
 	private static GameBoard myGameBoard;
 
 	public static void main(String[] args) {
+		//represents the board backend
 		myBoard = new Board();
 		System.out.println(myBoard);
 		
+		//represents the view
 		myGameBoard = new GameBoard();
 		myGameBoard.start();
 	}

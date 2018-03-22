@@ -10,6 +10,11 @@ public class GameBoard extends JFrame {
 	}
 	
 	public void start() {
-		 setVisible(true);	 
+		 setVisible(true);	
+		 addGamePanel();
+	}
+	
+	private void addGamePanel() {
+		
 	}
 }
